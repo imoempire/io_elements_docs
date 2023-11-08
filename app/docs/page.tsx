@@ -1,9 +1,10 @@
+"use client"
 import { title } from "@/components/primitives";
 
 export default function DocsPage() {
 	return (
 		<div>
-			<h1 className={title()}>Docssss</h1>
+			<h1 className={title()}>Documentation</h1>
 		</div>
 	);
 }

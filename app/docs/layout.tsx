@@ -1,3 +1,4 @@
+"use client"
 import DashboardNavLink from "@/components/Docs/DashboardNavLink";
 import { subtitle } from "@/components/primitives";
 

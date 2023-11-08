@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import PropsTable from "@/components/Docs/PropsData";
 import { CheckLinearIcon } from "@/components/icons";
 import { header, subtitle, title } from "@/components/primitives";
@@ -15,8 +15,12 @@ import {
 } from "@nextui-org/react";
 import { useClipboard } from "@/Hooks/useClipbpard";
 
-function Page({ params }: { params: any }) {
-  const [isOpen, setIsOpen] = React.useState(false);
+interface Props {
+  params: any;
+}
+
+const Page = ({ params }: Props) => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   let label = params?.id;
   const componentInfo =
@@ -148,8 +152,6 @@ function Page({ params }: { params: any }) {
       )}
     </>
   );
-}
+};
 
 export default Page;
-
-
