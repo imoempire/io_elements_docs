@@ -1,6 +1,14 @@
-import { ButtonProps, CardProps, ModalProps, SeletorProps } from "./PropsData";
+import { AvatarProps, ButtonProps, CardProps, ModalProps, SeletorProps } from "./PropsData";
 
 export const Components = [
+  {
+    id: 5,
+    name: "Avatar",
+    description:
+      "An Avatar UI component is a visual representation of a user or entity, typically in the form of a small image or icon. It represent a user, and displays the profile picture, initials or fallback icon.",
+    Props: AvatarProps,
+    usageLink: "https://snack.expo.dev/@imoempire/io-elements-avatar",
+  },
   {
     id: 1,
     name: "Button",

@@ -1,3 +1,48 @@
+export const AvatarProps = [
+  {
+    key: "1",
+    name: "size",
+    type: `number | "lg" | "md" | "sm" `,
+    required: "false",
+    default: "80",
+  },
+  {
+    key: "2",
+    name: "raduis",
+    type: `number | "full" | "lg" | "md" | "sm"`,
+    required: "true",
+    default: `md`,
+  },
+  {
+    key: "3",
+    name: "borderSize",
+    type: `number | "lg" | "md" | "sm"`,
+    required: "false",
+    default: `sm`,
+  },
+  {
+    key: "4",
+    name: "text",
+    type: "String",
+    required: "false",
+    default: `true`,
+  },
+  {
+    key: "4",
+    name: "textStyle",
+    type: "StyleProp<{color, fontSize, fontWeight}>",
+    required: "false",
+    default: `{}`,
+  },
+  {
+    key: "4",
+    name: "source",
+    type: "String",
+    required: "false",
+    default: ``,
+  },
+];
+
 export const ButtonProps = [
   {
     key: "1",

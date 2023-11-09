@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import DashboardNavLink from "@/components/Docs/DashboardNavLink";
 import { subtitle } from "@/components/primitives";
 
@@ -8,7 +8,8 @@ const DashboardLayout = ({ children }: { children: any }) => {
     { id: 2, label: "Installation" },
   ];
   let links2 = [
-    { id: 1, label: "Button" },
+    { id: 1, label: "Avatar" },
+    { id: 5, label: "Button" },
     { id: 2, label: "Card" },
     { id: 3, label: "Modal" },
     { id: 4, label: "Selector" },

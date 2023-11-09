@@ -84,7 +84,7 @@ const Page = ({ params }: Props) => {
             <h2 className={title({ size: "sm" })}>Import</h2>
             <Code className="md:w-1/2" size="lg" color="success">
               <div className="flex flex-row justify-between items-center">
-                <h2>{`import { ${componentInfo?.name} } from io-elements`}</h2>
+                <h2>{`import { ${componentInfo?.name} } from "io-elements"`}</h2>
                 <div className="flex flex-col gap-2">
                   <Popover
                     isOpen={isOpen}
@@ -95,7 +95,7 @@ const Page = ({ params }: Props) => {
                         variant="light"
                         onClick={() =>
                           HandleCopy(
-                            `import { ${componentInfo?.name} } from io-elements`
+                            `import { ${componentInfo?.name} } from "io-elements"`
                           )
                         }
                       >

@@ -42,7 +42,7 @@ export const siteConfig = {
   links: {
     github: "https://github.com/imoempire/IO-ELEMENTS",
     twitter: "https://twitter.com/getnextui",
-    docs: "/docs",
+    docs: "/docs/Introduction",
     discord: "https://www.npmjs.com/package/io-elements",
     // sponsor: "https://patreon.com/jrgarciadev",
   },
