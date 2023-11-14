@@ -23,5 +23,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Get Repository Name
+        id: repo
+        run: echo "::set-output name=name::$(basename $GITHUB_REPOSITORY)"
+
       - name: Deploy to Vercel
-        run: vercel --token ${{ secrets.VERCEL_TOKEN }} --prod --yes --project io-elements-documentation
+        run: vercel --token ${{ secrets.VERCEL_TOKEN }} --prod --yes --project ${{ steps.repo.outputs.name }}
