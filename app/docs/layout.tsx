@@ -11,6 +11,7 @@ const DashboardLayout = ({ children }: { children: any }) => {
     { id: 1, label: "Avatar" },
     { id: 5, label: "Button" },
     { id: 2, label: "Card" },
+    { id: 6, label: "Divider" },
     { id: 3, label: "Modal" },
     { id: 4, label: "Selector" },
   ];
