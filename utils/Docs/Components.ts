@@ -1,4 +1,11 @@
-import { AvatarProps, ButtonProps, CardProps, ModalProps, SeletorProps } from "./PropsData";
+import {
+  AvatarProps,
+  ButtonProps,
+  CardProps,
+  DividerProps,
+  ModalProps,
+  SeletorProps,
+} from "./PropsData";
 
 export const Components = [
   {
@@ -16,6 +23,14 @@ export const Components = [
       "Button component allows user to perform an action or event, such as submitting a form, opening a Dialog, canceling an action, or performing a delete operation",
     Props: ButtonProps,
     usageLink: "https://snack.expo.dev/@imoempire/io-elements-button",
+  },
+  {
+    id: 6,
+    name: "Divider",
+    description:
+      "A Divider is a component that separates two content on a screen or page",
+    Props: DividerProps,
+    usageLink: "https://snack.expo.dev/@imoempire/io-elements-avatar",
   },
   {
     id: 2,

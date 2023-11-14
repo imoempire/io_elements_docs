@@ -43,7 +43,6 @@ export const AvatarProps = [
   },
 ];
 
-
 export const ButtonProps = [
   {
     key: "1",
@@ -128,6 +127,51 @@ export const ButtonProps = [
     type: "left, right, top, bottom | string",
     required: "false",
     default: "right",
+  },
+];
+
+export const DividerProps = [
+  {
+    key: "1",
+    name: "size",
+    type: `number`,
+    required: "false",
+    default: "10",
+  },
+  {
+    key: "2",
+    name: "width",
+    type: `number | "full"`,
+    required: "false",
+    default: `80`,
+  },
+  {
+    key: "3",
+    name: "orientation",
+    type: `"Vertical" | "Horizontal"`,
+    required: "false",
+    default: `Horizontal`,
+  },
+  {
+    key: "4",
+    name: "text",
+    type: "String",
+    required: "false",
+    default: `true`,
+  },
+  {
+    key: "4",
+    name: "VeriticalHeight",
+    type: `number | "full"`,
+    required: "false",
+    default: `50`,
+  },
+  {
+    key: "4",
+    name: "color",
+    type: "ColorValue",
+    required: "false",
+    default: `#000000`,
   },
 ];
 
