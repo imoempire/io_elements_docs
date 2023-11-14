@@ -30,7 +30,7 @@ export const Components = [
     description:
       "A Divider is a component that separates two content on a screen or page",
     Props: DividerProps,
-    usageLink: "https://snack.expo.dev/@imoempire/io-elements-avatar",
+    usageLink: "https://snack.expo.dev/@imoempire/io-elements-divider",
   },
   {
     id: 2,
