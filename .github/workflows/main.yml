@@ -13,6 +13,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Install Vercel CLI
+        run: |
+          sudo npm install -g vercel
+
       - name: Install Dependencies
         run: npm install
 
@@ -20,6 +24,4 @@ jobs:
         run: npm run build
 
       - name: Deploy to Vercel
-        uses: amondnet/vercel-deploy@v3
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+        run: vercel --token ${{ secrets.VERCEL_TOKEN }} --prod
